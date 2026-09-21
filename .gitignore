@@ -1,0 +1,47 @@
+# Visual Studio
+.vs/
+.vscode/
+
+# Compilación
+[Bb]in/
+[Oo]bj/
+
+# Archivos de usuario de Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+
+# NuGet
+packages/
+*.nupkg
+
+# Rider / JetBrains
+.idea/
+
+# Archivos generados
+GeneratedFiles/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de respaldo
+*.bak
+*.backup
+
+# Credenciales y secretos
+.env
+.env.*
+!.env.example
+
+# Certificados y claves privadas
+*.pfx
+*.p12
+*.key
