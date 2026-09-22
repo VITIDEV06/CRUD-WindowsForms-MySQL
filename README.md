@@ -693,29 +693,35 @@ graph LR
 
 # Resultado Esperado
 
-Al ejecutar correctamente el proyecto, el usuario debe visualizar una aplicación Windows Forms capaz de:
+Al ejecutar correctamente el proyecto, se debe visualizar una aplicación Windows Forms para la gestión de productos, con los siguientes elementos:
 
-```text
-┌─────────────────────────────────────────────┐
-│          GESTIÓN DE PRODUCTOS              │
-├─────────────────────────────────────────────┤
-│                                             │
-│  Folio:       [       ]                     │
-│  Nombre:      [       ]                     │
-│  Precio:      [       ]                     │
-│  Cantidad:    [       ]                     │
-│  Imagen:      [       ]                     │
-│                                             │
-│  [Agregar] [Modificar] [Eliminar] [Limpiar]│
-│                                             │
-├─────────────────────────────────────────────┤
-│  BÚSQUEDA: [                    ]            │
-├─────────────────────────────────────────────┤
-│ ID │ Producto │ Precio │ Cantidad │ Imagen │
-├────┼──────────┼────────┼──────────┼────────┤
-│ 01 │ Producto │ 10.00  │    5     │  IMG   │
-└─────────────────────────────────────────────┘
+| Elemento         | Función                                 |
+| ---------------- | --------------------------------------- |
+| **Folio**        | Identificador del producto.             |
+| **Nombre**       | Nombre del producto.                    |
+| **Precio**       | Precio del producto.                    |
+| **Cantidad**     | Cantidad disponible.                    |
+| **Imagen**       | Selección y visualización de la imagen. |
+| **Agregar**      | Registra un nuevo producto.             |
+| **Modificar**    | Actualiza un producto existente.        |
+| **Eliminar**     | Elimina el producto seleccionado.       |
+| **Limpiar**      | Limpia los campos del formulario.       |
+| **Búsqueda**     | Permite filtrar productos.              |
+| **DataGridView** | Muestra los productos registrados.      |
+
+### Flujo principal
+
+```mermaid
+flowchart LR
+    A["Ingresar datos"] --> B["Agregar producto"]
+    B --> C[("MySQL")]
+    C --> D["Mostrar en DataGridView"]
+    D --> E["Buscar / Modificar / Eliminar"]
+    E --> C
 ```
+
+La aplicación permite realizar las operaciones **CRUD** sobre los productos y almacenar sus imágenes en la base de datos MySQL.
+
 
 ---
 
