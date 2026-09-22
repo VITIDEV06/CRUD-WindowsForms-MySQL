@@ -735,19 +735,32 @@ Al ejecutar correctamente el proyecto, el usuario debe visualizar una aplicació
 
 ---
 
-# Referencias
+## Referencias
 
-## Material de apoyo
+<div align="center">
 
-* Documentación oficial de C# y .NET.
-* Documentación de Windows Forms.
-* Documentación oficial de MySQL.
-* Material proporcionado durante el laboratorio.
-* Video de apoyo utilizado durante el desarrollo de la práctica.
+### Documentación oficial
 
-## Win32OpenSSL
+[![C#](https://skillicons.dev/icons?i=cs)](https://learn.microsoft.com/dotnet/csharp/)
+[![.NET](https://skillicons.dev/icons?i=dotnet)](https://learn.microsoft.com/dotnet/framework/)
+[![Visual Studio](https://skillicons.dev/icons?i=visualstudio)](https://learn.microsoft.com/dotnet/desktop/winforms/)
+[![MySQL](https://skillicons.dev/icons?i=mysql)](https://dev.mysql.com/doc/)
+[![Git](https://skillicons.dev/icons?i=git)](https://git-scm.com/doc)
+[![GitHub](https://skillicons.dev/icons?i=github)](https://docs.github.com/)
 
-**Win32OpenSSL** corresponde a una implementación de OpenSSL para entornos Windows y se incluye como referencia relacionada con herramientas y componentes utilizados en entornos de desarrollo.
+</div>
+
+### Recursos consultados
+
+* **C# y .NET:** [Microsoft Learn](https://learn.microsoft.com/dotnet/csharp/)
+* **Windows Forms:** [Documentación oficial](https://learn.microsoft.com/dotnet/desktop/winforms/)
+* **MySQL:** [Documentación oficial](https://dev.mysql.com/doc/)
+* **MySQL Connector/NET:** [Conexión C# + MySQL](https://dev.mysql.com/doc/connector-net/en/)
+* **CRUD:** [Basic CRUD Operations](https://dev.mysql.com/doc/connector-net/en/connector-net-tutorials-crud.html)
+* **BLOB e imágenes:** [MySQL Connector/NET — BLOB](https://dev.mysql.com/doc/connector-net/en/connector-net-programming-blob.html)
+* **NuGet — MySql.Data:** [Paquete oficial](https://www.nuget.org/packages/MySql.Data/)
+* **Material académico:** Material, ejemplos y video de apoyo proporcionados durante el laboratorio.
+
 
 ---
 
